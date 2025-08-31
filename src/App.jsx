@@ -1,16 +1,23 @@
-import React from 'react'
-import './App.css'
+import React from 'react';
+import './App.css';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import About from './components/About/About';
+import Services from './components/Services/Services';
+import Team from './components/Team/Team';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>React + Vite + GitHub Pages</h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>Deployed by TypeTew</p>
-      </header>
+      <Header />
+      <Hero />
+      <About />
+      <Services />
+      <Team />
+      <Contact />
+      <Footer />
     </div>
   );
 }
